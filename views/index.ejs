@@ -1,0 +1,14 @@
+<%- include("partials/header.ejs") %>
+
+
+  <h1>Welcome to my Blog web application</h1>
+
+  <p>Please add title and paragraph that you want to post</p>
+  
+  <form>
+    <input name="title" type="text" class="feedback-input" placeholder="Title" style="color:black;"/>
+    <textarea name="text" class="feedback-input" placeholder="Paragraph" style="color:black;"></textarea>
+    <input type="submit" value="POST" />
+  </form>
+
+  <%- include("partials/footer.ejs") %>
